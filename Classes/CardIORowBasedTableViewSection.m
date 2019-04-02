@@ -82,8 +82,9 @@
     return [dataSourceRow tableView:aTableView cellForRowAtIndexPath:indexPath];
   } else if([row isKindOfClass:[UITableViewCell class]]) {
     return row;
-  } else {
-    return nil;
+  }
+  else {
+    return [UITableViewCell new];
   }
 }
 
