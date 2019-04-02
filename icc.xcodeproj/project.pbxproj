@@ -2162,7 +2162,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					3E9F4C4A181F07B700F33B48 = {
 						DevelopmentTeam = V8KL7848Q4;
@@ -2531,6 +2531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54AD1BE2F7A800B669FB /* AdHoc.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "";
 			};
 			name = AdHoc;
@@ -2560,6 +2561,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A553B71B1BE32664006DF551 /* icc_Static_Library_Debug.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -2567,6 +2569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A553B71C1BE32664006DF551 /* icc_Static_Library_Release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -2574,6 +2577,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A553B71C1BE32664006DF551 /* icc_Static_Library_Release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = AdHoc;
 		};
@@ -2581,6 +2585,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BE1BE2FEEC00B669FB /* CardIO_Framework_Debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 			};
 			name = Debug;
 		};
@@ -2588,6 +2593,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BF1BE2FEEC00B669FB /* CardIO_Framework_Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 			};
 			name = Release;
 		};
@@ -2595,6 +2601,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BD1BE2FEEC00B669FB /* CardIO_Framework_Adhoc.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 			};
 			name = AdHoc;
 		};
@@ -2623,6 +2630,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B21BE2F7A800B669FB /* Debug.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "";
 			};
 			name = Debug;
@@ -2631,6 +2639,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B81BE2F7A800B669FB /* Release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "";
 			};
 			name = Release;
